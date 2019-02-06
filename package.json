@@ -16,5 +16,9 @@
     "express": "^4.16.4",
     "mongoose": "^5.4.6",
     "mongoose-unique-validator": "^2.0.2"
-  }
+   },
+   "engines": {
+      "node": "10.5.0"
+   }
+
 }
