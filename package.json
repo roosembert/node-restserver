@@ -1,6 +1,9 @@
 {
   "name": "restserver",
   "version": "1.0.0",
+  "engines": {
+     "node": "8.9.4"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,9 +19,6 @@
     "express": "^4.16.4",
     "mongoose": "^5.4.6",
     "mongoose-unique-validator": "^2.0.2"
-   },
-   "engines": {
-      "node": "10.5.0"
    }
 
 }
