@@ -12,7 +12,7 @@ app.get('/productos', verificaToken, (req, res) => {
    let desde = req.query.desde || 0;
    desde = Number(desde);
 
-   let limite = req.query.limite || 4;
+   let limite = req.query.limite || 10;
    limite = Number(limite);
    // usuario y categoria populate, paginado
    Producto.find({disponible:true})
